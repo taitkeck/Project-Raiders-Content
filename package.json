@@ -1,11 +1,26 @@
 {
+  "name": "project-raiders-content",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "types": "tsc --noEmit"
+  },
   "dependencies": {
-    "next.js": "^1.0.3",
+    "next": "^12.3.1",
+    "node.js": "^0.0.1-security",
     "react": "^18.2.0",
-    "typescript": "^4.8.4",
-    "vite": "^3.1.3"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.21"
+    "@types/node": "18.7.23",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
   }
 }
