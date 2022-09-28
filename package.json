@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "next",
-    "build": "next build",
     "start": "next start",
+    "build": "next build",
     "types": "tsc --noEmit"
   },
   "dependencies": {
